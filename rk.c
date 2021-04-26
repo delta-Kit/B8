@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define dt		0.05
-#define maxstep 100000
+#define maxstep 1000
 #define m		1.0
 #define k		1.0
 #define gamma	0.0
@@ -23,7 +23,7 @@ double V(double preX, double preV, double h) {
 }
 
 int main() {
-	double x = 1.0, v = 0.0, preX = 0.0, preV = 0.0, x1, v1, x2, v2, x3, v3, x4, v4;
+	double x = 1.0, v = 0.0, preX, preV, x1, v1, x2, v2, x3, v3, x4, v4;
 	for (int step = 0; step < maxstep; step++) {
 		printf("%f %f %f\n", dt * step, x, v);
 		preX = x;
