@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    const int num = 45;
+    const int num = 500;
     double ignore, x, y, xySum = 0, xSum = 0, ySum = 0, xSqSum = 0;
     for(int i = 0; i < num; i++){
         cin >> ignore >> ignore >> x >> y;

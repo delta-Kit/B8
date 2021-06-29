@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    const int num = 76;
+    const int num = 3636;
     vector<double> x(num), y(num), msd(num + 5);
     for(int i = 0; i < num; i++){
         cin >> x[i] >> y[i];
